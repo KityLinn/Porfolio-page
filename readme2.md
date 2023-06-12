@@ -16,6 +16,7 @@ This project involved creating a website for a fictional science museum. It requ
 This project is an exercise in design and design implementations, creating a website that's responsive and follows wcag guidelines as well as being as bug free as possible.
 
 The design was based on an initial prototype created in figma. It was important to create a design that was simple but informative while also getting the audience excited about going to the museum. It was meant to appeal to parents and their children.
+
 ## Getting Started
 
 ### Installing
