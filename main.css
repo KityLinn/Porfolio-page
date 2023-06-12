@@ -100,7 +100,25 @@ main {
     .cards-container {
         flex-direction: row;
         align-items: center;
-        gap: 20px;
+        justify-content: center;
     }
+    .card {
+        width: 33%;
+        height: 600px;
+
+    }
+
+    .links {
+        margin-top: auto;
+    }
+    .cards-section {
+        max-width: 1600px;
+    }
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
 
  }
