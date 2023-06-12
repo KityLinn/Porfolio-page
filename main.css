@@ -13,11 +13,12 @@
     --black-border: black solid 2px;
     --background-color:#e0dfdf;
     --main-font:'Poppins', sans-serif;
-    
+    --background-blue:rgb(63,94,251);
+    --cute-gradient:linear-gradient(225deg, rgba(63,94,251,1) 0%, rgba(228,16,59,1) 100%);
 }
 
 body {
-    background-color: var(--background-color);
+    background-image: var(--gradient-background);
     font-family: var(--main-font);
 }
 
@@ -50,6 +51,7 @@ main {
     box-shadow: var(--card-box-shadow);
     border-radius: 20px;
     gap: 20px;
+    background-color: var(--background-color);
 }
 
 .span-bar {
@@ -69,18 +71,13 @@ main {
     border-radius:  var(--image-border-radius);
 }
 
-.title-container {
-
-}
 
 .title-container h2 {
     font-size: 1.4rem;
 
 }
 
-.description-container {
 
-}
 
 .description-container p {
     padding: 10px;
